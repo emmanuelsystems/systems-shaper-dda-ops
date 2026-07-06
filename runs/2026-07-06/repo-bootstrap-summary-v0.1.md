@@ -35,6 +35,8 @@
 - `schemas/handoff-packet-frontmatter.md`
 - `evals/held/README.md`
 - `skills/held/README.md`
+- `runs/2026-07-06/codex-to-dda-completion-packet-v0.1.md`
+- `runs/2026-07-06/eod-and-codex-agent-handoff-base-v0.1.md`
 
 ## Branch Used
 
@@ -42,7 +44,11 @@
 
 ## Push Status
 
-Not pushed during scaffold creation. The remote check for `https://github.com/emmanuelsystems/systems-shaper-dda-ops.git` returned repository not found.
+Pushed after the GitHub remote became available.
+
+- Remote: `https://github.com/emmanuelsystems/systems-shaper-dda-ops.git`
+- Branch: `codex/bootstrap-systems-shaper-dda-ops-20260706`
+- Current boundary: pushed for review only; not accepted infrastructure.
 
 ## Open Decisions
 
@@ -58,4 +64,4 @@ Not pushed during scaffold creation. The remote check for `https://github.com/em
 
 ## Proof Boundary
 
-This bootstrap creates a local review-only scaffold. It does not prove acceptance, replacement of `dda-agent-ops`, Context Vault status, automation, memory save, skill promotion, eval promotion, runtime validation, or readiness for `main`.
+This bootstrap creates a pushed review-only scaffold. It does not prove acceptance, replacement of `dda-agent-ops`, Context Vault status, automation, memory save, skill promotion, eval promotion, runtime validation, or readiness for `main`.
