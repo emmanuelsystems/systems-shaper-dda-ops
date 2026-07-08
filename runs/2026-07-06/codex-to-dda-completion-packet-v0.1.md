@@ -9,8 +9,8 @@
 ## 2. Evidence
 
 - Files/docs reviewed: `README.md`, `docs/source-of-truth.md`, `docs/source-authority-ladder.md`, `runs/2026-07-06/source-index.md`, `runs/2026-07-06/repo-bootstrap-summary-v0.1.md`, `runs/2026-07-06/bootstrap-readiness-check-v0.1.md`, and `runs/2026-07-06/systems-shaper-dda-ops-buildout-handoff-v0.1.md`.
-- Outputs generated: Bootstrap scaffold, run folder source index, bootstrap summary, readiness check, DDA -> Codex buildout handoff, this Codex -> DDA completion packet, and an EOD / next-agent handoff base.
-- Checks performed: `git status --short --branch`, staged-diff check, commit check, and push to `origin/codex/bootstrap-systems-shaper-dda-ops-20260706`.
+- Outputs generated: Bootstrap scaffold, run folder source index, bootstrap summary, readiness check, DDA -> Codex buildout handoff, this Codex -> DDA completion packet, an EOD / next-agent handoff base, and a repo role hold note.
+- Checks performed: `git status --short --branch`, staged-diff check, commit check, push to `origin/codex/bootstrap-systems-shaper-dda-ops-20260706`, fresh local fetch, GitHub branch check, GitHub commit check, and Slack thread read.
 - Limits of evidence: This verifies only repo-local scaffold creation and branch push. It does not validate runtime use, team approval, Context Vault status, automation, skills, evals, or promotion into `main`.
 
 ## 3. Unresolved Questions
@@ -23,6 +23,10 @@
 - Why unresolved: The current artifacts preserve both options and do not claim replacement.
 - Suggested owner: Emmanuel / David.
 
+- Question: Is `systems-shaper-dda-ops` the intended review surface for the bootstrap packet, a broader operations layer, or only a repo existence test?
+- Why unresolved: David raised this in the 2026-07-06 Slack thread, and no repo-local approval decision has been captured yet.
+- Suggested owner: Emmanuel / David.
+
 - Question: Who approves promotion into `main`?
 - Why unresolved: The repo currently treats `main` as reviewed durable source only, but the human review path is not yet assigned.
 - Suggested owner: Emmanuel, with David as reviewer if agreed.
@@ -32,6 +36,10 @@
 - Blocker: No current Git push blocker.
 - Impact: The branch can now be reviewed from GitHub.
 - Recommended next action: Human review should decide whether to open a PR, request revisions, or keep the bootstrap branch as a review-only reference.
+
+- Blocker: Repo role is still on hold.
+- Impact: Do not treat the repo as accepted infrastructure, a replacement for `dda-agent-ops`, or the final operations layer.
+- Recommended next action: Review `runs/2026-07-06/repo-role-hold-note-v0.1.md` and resolve the role before migration, `main` promotion, or external status updates.
 
 ## 5. DDA / Project Carryovers
 

@@ -27,6 +27,7 @@ What is held:
 - This does not prove runtime readiness.
 - This does not promote skills, evals, automation, memory, or Context Vault status.
 - This does not replace `dda-agent-ops`.
+- The intended role of this repo is still unresolved: bootstrap review surface, broader operations layer, long-term repo, or repo existence test.
 - Promotion into `main` still needs human review.
 
 Next owner:
@@ -60,6 +61,7 @@ Start by reading:
 4. `runs/2026-07-06/source-index.md`
 5. `runs/2026-07-06/repo-bootstrap-summary-v0.1.md`
 6. `runs/2026-07-06/codex-to-dda-completion-packet-v0.1.md`
+7. `runs/2026-07-06/repo-role-hold-note-v0.1.md`
 
 Current proof boundary:
 
@@ -71,7 +73,7 @@ Current proof boundary:
 
 Recommended next Codex action:
 
-- If Emmanuel asks for the next pass, review `docs/open-decisions.md`, `workflows/branch-and-return-sop-v0.1.md`, and `workflows/verifier-gate-sop-v0.1.md` for consistency, then return a verifier-style review packet with accepted / held / rework / rejected sections.
+- If Emmanuel asks for the next pass, review `docs/open-decisions.md`, `workflows/branch-and-return-sop-v0.1.md`, `workflows/verifier-gate-sop-v0.1.md`, and `runs/2026-07-06/repo-role-hold-note-v0.1.md` for consistency, then return a verifier-style review packet with accepted / held / rework / rejected sections.
 
 Do not do without explicit approval:
 
