@@ -39,11 +39,14 @@ Codex should write new work into dated `runs/YYYY-MM-DD/` folders first unless t
 
 Use this repo as the durable update ledger for Systems Shaper DDA / Codex operations. Every meaningful work cycle should start in a dated `runs/YYYY-MM-DD/` folder before outward reporting or promotion.
 
+The dated run folder must follow the date the update is pushed or materially updated. If an older packet is corrected, reconciled, or pushed on a later day, create or update that later day's `runs/YYYY-MM-DD/` ledger and point back to the original artifact instead of silently treating the older dated folder as the whole update record.
+
 For each work cycle, create or update:
 
 - `source-index.md`
 - a DDA -> Codex handoff packet when execution is requested
 - a Codex -> DDA completion packet when Codex returns work
+- an update summary when a pushed or material update affects older run-folder artifacts
 - a verifier return when review is needed
 - a status/update summary only when useful for reporting
 
@@ -82,6 +85,8 @@ Emmanuel-side setup branches should include the ask, source anchors, what not to
 Update the repo first. Slack, Notion, Linear, Symphony, Drive, and other external surfaces should receive only approved summaries, and only when the user explicitly asks for that external update.
 
 No important DDA / Codex update should be treated as durable until it has a dated source index, scoped branch, completion or return packet, and verifier result or explicit hold note.
+
+When reporting a pushed update, cite the run folder for the push/update date and include the original artifact paths if they live under an earlier date.
 
 ## Approval Boundaries
 
