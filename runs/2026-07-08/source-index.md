@@ -39,8 +39,11 @@ If an older run packet is corrected, reconciled, or pushed on a later day, the l
 | `runs/2026-07-06/source-index.md` | Original bootstrap source ledger | Referenced |
 | `runs/2026-07-06/repo-bootstrap-summary-v0.1.md` | Original bootstrap summary and pushed branch context | Referenced |
 | `runs/2026-07-06/repo-role-hold-note-v0.1.md` | Current repo role hold note from the July 8 push | Referenced |
+| July 8 `#diarized-daily` thread `1783350845.960559` | David's July 9 meeting request, repo-role options, lane map, and non-claim boundary | Coordination only |
+| Linear `SSI-118` | Review/planning status for DDA v2 intent router and July 8 systems-shaper boundary update | Tracking only |
 | Git branch `codex/bootstrap-systems-shaper-dda-ops-20260706` | Current scoped bootstrap branch | Verified locally before this update |
 | Commit `34367d1801fb8a9015486205ae75e02cdd7f754d` | July 8 pushed bootstrap role-hold update | Referenced |
+| Commit `2f26860fbe17614ddfd6c9fcd6d3fc1a76209f1b` | Current branch head for dated update ledger rule | Verified locally before this update |
 
 ## Workspace Check
 
@@ -59,6 +62,7 @@ If an older run packet is corrected, reconciled, or pushed on a later day, the l
 | `AGENTS.md` | Adds the explicit rule that the run folder date follows the push/update date |
 | `runs/2026-07-08/source-index.md` | Source ledger for this July 8 update rule |
 | `runs/2026-07-08/update-summary-v0.1.md` | Summary of today's pushed update and the new dated-run rule |
+| `runs/2026-07-08/operating-model-meeting-update-v0.1.md` | Review-only operating-model meeting update for the July 9 David / Emmanuel discussion |
 
 ## Evidence Limits
 
@@ -67,3 +71,4 @@ If an older run packet is corrected, reconciled, or pushed on a later day, the l
 - It does not approve the repo role.
 - It does not replace `dda-agent-ops`.
 - It does not promote anything into `main`.
+- It does not make Slack or Linear proof authority.
