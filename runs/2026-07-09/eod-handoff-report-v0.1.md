@@ -100,7 +100,7 @@ The transcript analysis separates the proof gates this way:
 |---|---|---|
 | Gate 1: David-side local recovery | David could clone and interact with the repo context | Pass |
 | Gate 2: GitHub delivery | Updates could be pushed and pulled through GitHub | Pass |
-| Gate 3: Emmanuel-side transferability verification | Transferability worked narrowly, but metadata / attribution clarity still limited full acceptance | Narrow pass / held for clearer policy |
+| Gate 3: Emmanuel-side transferability verification | The metadata clarification at `94e4775` was accepted and supported a Narrow Pass for that handoff only | Narrow Pass for that handoff; broader metadata policy and workflow acceptance held |
 
 The important distinction is that recovery and transport passed, but broader workflow promotion is still held. That is why the new repo should not be called accepted infrastructure yet.
 
@@ -132,7 +132,7 @@ The lane model is also clearer:
 | VERIFY | proof-boundary review and accepted / held / rework / rejected returns |
 | DDA | coherence across conversations, repo artifacts, Slack, Linear, and future memory candidates |
 
-The practical trust order should be:
+The practical navigation order should be:
 
 1. latest dated repo source index,
 2. branch and commit,
@@ -141,6 +141,8 @@ The practical trust order should be:
 5. Linear tracking issue,
 6. Slack coordination thread,
 7. chat or memory as orientation only.
+
+This navigation order explains where to start. It does not override the claim authority order in `docs/source-authority-ladder.md`, where a human decision or independent verifier return anchored to an exact SHA outranks routing context.
 
 ## What Was Conducted As Planned
 
@@ -164,7 +166,7 @@ The repo now has enough structure for David to review how the loop should work:
 |---|---|---|---|
 | David-side recovery from repo context | Prior DDA Agent Ops transferability lane | Pass for narrow recovery | Not accepted infrastructure |
 | GitHub delivery / transport | Branches and commits pushed / pulled | Pass for transport | Commit / push is not acceptance |
-| Emmanuel-side transferability check | Verifier return after David-side work | Narrow pass | Metadata clarity prevented broader acceptance |
+| Emmanuel-side transferability check | Accepted metadata clarification at `94e4775` | Narrow Pass for that handoff only | Broader metadata policy and workflow acceptance remain held |
 | `systems-shaper-dda-ops` scaffold | Current branch and run folders | Exists and pushed | Review-only |
 | Operating model packet | `runs/2026-07-08/operating-model-meeting-update-v0.1.md` | Prepared for review | Not PR-ready or `main`-ready |
 | July 9 EOD handoff | This report | Draft review-only | Needs David / Emmanuel review |
@@ -177,7 +179,7 @@ The repo now has enough structure for David to review how the loop should work:
 - The branch has current operating-model artifacts.
 - The July 8 and July 9 run ledgers exist.
 - The recording link exists in Drive.
-- The transcript-derived analysis supports the same working conclusion: recovery and transport are useful, but broader workflow promotion remains held.
+- The transcript-derived analysis supports the same working conclusion: recovery and transport are useful, the `94e4775` metadata clarification was accepted for a Narrow Pass limited to that handoff, and broader workflow promotion remains held.
 
 ## What Is Held
 
@@ -253,7 +255,7 @@ What changed:
 
 - I added the end-of-week handoff report under the July 9 run ledger.
 - I included the 20-minute huddle recording link and transcript-derived analysis.
-- I kept the proof log explicit: David-side recovery passed, GitHub delivery passed, and Emmanuel-side transferability is still a narrow pass / held for metadata clarity rather than accepted infrastructure.
+- I kept the proof log explicit: David-side recovery passed, GitHub delivery passed, and the accepted `94e4775` metadata clarification supported a Narrow Pass for that handoff only; broader metadata policy and workflow acceptance remain held.
 - I kept the repo boundary explicit: no PR, no `main`, no accepted infrastructure, no replacement of `dda-agent-ops`, no runtime, canon, automation, memory, skill, eval, or Context Vault claim.
 
 My end-of-week read:

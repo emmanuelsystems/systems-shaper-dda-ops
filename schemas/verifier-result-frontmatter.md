@@ -6,6 +6,11 @@ Status: `candidate_review_only`
 ---
 title:
 date:
+parent_sha:
+reviewed_sha:
+candidate_sha:
+verifier_result_sha:
+review_scope:
 result: accepted | held | rework | rejected
 burden_score: low | medium | high | not measured
 evidence_example:

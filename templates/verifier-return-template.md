@@ -1,5 +1,14 @@
 # Verifier Return
 
+## SHA Trace
+
+- Parent SHA:
+- Reviewed SHA:
+- Candidate SHA:
+- Verifier Result SHA, if committed:
+
+## Review Scope
+
 ## Result
 
 accepted / held / rework / rejected

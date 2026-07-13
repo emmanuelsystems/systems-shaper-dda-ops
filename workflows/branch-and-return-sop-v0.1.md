@@ -36,6 +36,24 @@ review/<artifact-or-workflow>-v0-1
 
 Return branches should include a completion packet, source index, and verifier-ready summary before any merge or promotion discussion.
 
+For a rework pass, freeze one implementation commit and return:
+
+- `parent_sha`,
+- `reviewed_sha`,
+- the frozen commit as `candidate_sha`,
+- dated run folder,
+- complete changed-file manifest,
+- implementation summary,
+- remaining holds.
+
+The implementation owner must not provide the independent verifier result for the same rework. The independent verifier reviews the frozen `candidate_sha` afterward and records that SHA in the verifier return.
+
+## Bootstrap And Default-Branch Posture
+
+The current bootstrap work stays on `codex/bootstrap-systems-shaper-dda-ops-20260706`. The configured remote HEAD may point to this bootstrap branch while the repo has no approved `main`; that is a transport and discoverability posture only.
+
+Do not create, promote, or push `main`, and do not open a PR, without explicit Emmanuel and David approval. A later approved default-branch decision must be recorded as a separate human decision and must not be inferred from the remote HEAD setting.
+
 ## Main Rule
 
 Do not push directly to `main` without explicit human approval. Do not treat branch creation, commit, or push as acceptance.

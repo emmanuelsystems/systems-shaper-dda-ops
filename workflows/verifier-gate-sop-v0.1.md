@@ -6,6 +6,11 @@ The verifier gate records whether an artifact is accepted, held, rework, or reje
 
 ## Verifier Result Shape
 
+- Parent SHA:
+- Reviewed SHA:
+- Candidate SHA:
+- Verifier result SHA, if committed:
+- Review scope:
 - Result: accepted / held / rework / rejected
 - Burden score: low / medium / high / not measured
 - Evidence example:
@@ -25,3 +30,7 @@ The verifier gate records whether an artifact is accepted, held, rework, or reje
 ## Runtime Boundary
 
 Verifier acceptance is not runtime validation. Runtime-ready requires separate live evidence and validation.
+
+## Independence Rule
+
+The implementation return is not its own verifier result. The implementation owner freezes and returns one `candidate_sha`; a separate verifier reviews that exact SHA against `docs/review-only-acceptance-criteria.md` and records the result afterward.
