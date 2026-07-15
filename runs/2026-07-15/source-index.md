@@ -1,7 +1,7 @@
 ---
 title: EXP-02 Post-Meeting-to-Execution Source Index
 asset_type: run_artifact
-status: exp_02_r1_human_accepted_working_optimization_target_defined
+status: exp_03_setup_frozen_before_delegation
 version: v0.1
 owner: Emmanuel Olana
 created: 2026-07-15
@@ -93,6 +93,22 @@ R1 candidate `7437f21e0a5461ee559196f36f145cae41b4caa2` received an independent 
 The DDA now has a human-directed working target for bounded experiment design: maximize first-pass delivery of human-approved, independently verified, human-accepted goal outcomes while reducing time-to-outcome and human coordination burden, under zero permission or proof-boundary breaches.
 
 The full metric definitions, eligibility rule, improvement rule, decision rights, and trace requirements are in `dda-optimization-target-v0.1.md`.
+
+## EXP-03 Baseline Observation 1 of 3
+
+EXP-03 is the first prospective real-outcome cycle under the working optimization target. Its operational goal is to produce a review-ready implementation decision brief for Emmanuel and David that states what to implement next, where to start, how the bounded loop should run, and what remains held.
+
+The decision brief is the outcome. The remaining EXP-03 files are instrumentation and review evidence.
+
+| Artifact | Role |
+|---|---|
+| `exp-03-human-authorization-v0.1.md` | Human authorization and held boundary |
+| `exp-03-goal-and-measurement-contract-v0.1.md` | Frozen observable goal, permissions, evidence rule, success/failure/hold conditions, and prospective measures |
+| `exp-03-executor-contract-v0.1.md` | First actionable delegated task |
+| `exp-03-independent-verifier-intake-v0.1.md` | Prepared read-only verifier criteria; not dispatchable before candidate freeze |
+| `exp-03-lane-ledger-v0.1.md` | Prospective timestamps, lane state, coordination, interventions, corrections, and defects |
+
+Current gate: setup is frozen before delegation. No candidate, verifier result, final human decision, or improvement claim exists yet.
 
 ## Proof Boundary
 
