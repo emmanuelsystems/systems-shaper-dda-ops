@@ -1,5 +1,5 @@
 ---
-title: EXP-02 Post-Meeting-to-Execution Source Index
+title: July 15 DDA Experiment Source Index
 asset_type: run_artifact
 status: exp_03_verifier_accepted_human_gate_pending
 version: v0.1
@@ -9,6 +9,9 @@ approval_status: r1_accepted_target_authorized_for_bounded_design
 parent_sha: 8063e95081d640f53f78db9ef345ab03ad8441ca
 candidate_sha: bc4b4cc401fd05b0311928a5a2fb87fa9f12eaf5
 r1_candidate_sha: 7437f21e0a5461ee559196f36f145cae41b4caa2
+exp_03_setup_sha: 17346a3707204566e228e2a621b67493483f5e4f
+exp_03_candidate_sha: 763ef60c3923cb2dbfaa7ed94f068bcfaf1b531a
+exp_03_verifier_result_sha: 2e80b24c6fb0609a940209a8cfb42a96e9030da7
 runtime_claim: none
 automation_claim: none
 skill_claim: none
@@ -16,11 +19,11 @@ external_write_claim: none
 github_path: runs/2026-07-15/source-index.md
 ---
 
-# EXP-02 Post-Meeting-to-Execution Source Index
+# July 15 DDA Experiment Source Index
 
 ## Purpose
 
-Run one bounded review-only test of whether DDA can convert the July 14 meeting evidence into an implementation-first execution packet with a measurable goal, owner-tagged tasks, recoverable evidence, a progress-update draft, independent verification, and a human decision-ready next action.
+Record the July 15 EXP-02/EXP-02-R1 calibration sequence, the accepted working optimization target, and EXP-03 baseline observation 1 as separate bounded review-only cycles with exact proof boundaries.
 
 EXP-02 is independent of EXP-01 completion. It does not imply that EXP-01 passed.
 

@@ -33,7 +33,7 @@ baseline_observation: 1_of_3
 | Verifier dispatch | `2026-07-15T12:26:41.2293069+08:00` | Task `/root/exp_03_verifier`; exact candidate `763ef60c3923cb2dbfaa7ed94f068bcfaf1b531a` | Dispatch followed candidate freeze |
 | Verifier scheduling check | `2026-07-15T12:30:26.4653341+08:00` | Message to `/root/exp_03_verifier` after no return file was visible | One additional intervention; requested prompt same-contract verdict or hold without changing candidate or criteria |
 | Verifier immediate status request | `2026-07-15T12:33:35.4947722+08:00` | Verifier replied that all material checks passed and the return was being written | Counted conservatively as a third root scheduling intervention; no review change |
-| Verifier result | `2026-07-15T12:33:25.2415178+08:00` | `exp-03-verifier-return-v0.1.md`; task `/root/exp_03_verifier`; verdict `accepted` | Root uses visible return-file time; verifier internal review end was `12:32:34.4840235+08:00` |
+| Verifier result | `2026-07-15T12:33:25.2415178+08:00` | `exp-03-verifier-return-v0.1.md`; task `/root/exp_03_verifier`; verdict `accepted`; result commit `2e80b24c6fb0609a940209a8cfb42a96e9030da7` | Root uses visible return-file time; verifier internal review end was `12:32:34.4840235+08:00` |
 | Final human decision | pending; right-censored at `2026-07-15T12:34:17.9846283+08:00` | `exp-03-human-decision-record-v0.1.md` | Elapsed censor time `980.580 s`; human acceptance gate cannot be self-filled |
 
 ## Counters at Setup Freeze

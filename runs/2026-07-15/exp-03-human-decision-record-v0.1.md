@@ -9,6 +9,7 @@ goal_id: EXP-03-DDA-IMPLEMENTATION-DECISION-2026-07-15
 baseline_observation: 1_of_3
 candidate_sha: 763ef60c3923cb2dbfaa7ed94f068bcfaf1b531a
 verifier_verdict: accepted
+verifier_result_sha: 2e80b24c6fb0609a940209a8cfb42a96e9030da7
 human_decision: pending
 ---
 
