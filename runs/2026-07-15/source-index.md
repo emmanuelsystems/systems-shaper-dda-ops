@@ -1,7 +1,7 @@
 ---
 title: EXP-02 Post-Meeting-to-Execution Source Index
 asset_type: run_artifact
-status: exp_03_setup_frozen_before_delegation
+status: exp_03_executor_return_qualified_candidate_freeze_pending
 version: v0.1
 owner: Emmanuel Olana
 created: 2026-07-15
@@ -107,8 +107,12 @@ The decision brief is the outcome. The remaining EXP-03 files are instrumentatio
 | `exp-03-executor-contract-v0.1.md` | First actionable delegated task |
 | `exp-03-independent-verifier-intake-v0.1.md` | Prepared read-only verifier criteria; not dispatchable before candidate freeze |
 | `exp-03-lane-ledger-v0.1.md` | Prospective timestamps, lane state, coordination, interventions, corrections, and defects |
+| `exp-03-dda-implementation-decision-brief-v0.1.md` | Real operational outcome: review-ready implementation decision brief |
+| `exp-03-executor-return-v0.1.md` | Executor evidence, timing, burden, and limitation record |
+| `exp-03-root-reconciliation-v0.1.md` | Root qualification, conflict resolution, and candidate-freeze decision |
+| `exp-03-candidate-manifest-v0.1.md` | Exact candidate file and hash manifest |
 
-Current gate: setup is frozen before delegation. No candidate, verifier result, final human decision, or improvement claim exists yet.
+Current gate: the executor primary return is qualified for candidate freeze. No candidate SHA, verifier result, final human decision, or improvement claim exists yet.
 
 ## Proof Boundary
 

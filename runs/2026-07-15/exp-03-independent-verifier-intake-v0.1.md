@@ -1,13 +1,13 @@
 ---
 title: EXP-03 Independent Verifier Intake
 asset_type: verifier_intake
-status: prepared_not_dispatchable_until_candidate_freeze
+status: ready_for_candidate_commit_not_yet_dispatchable
 version: v0.1
 owner: Root Orchestrator
 created: 2026-07-15
 goal_id: EXP-03-DDA-IMPLEMENTATION-DECISION-2026-07-15
 logical_task_id: EXP-03-VERIFY
-candidate_sha: pending
+candidate_sha: assigned_by_commit_containing_this_intake
 ---
 
 # EXP-03 Independent Verifier Intake
