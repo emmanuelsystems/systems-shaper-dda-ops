@@ -25,7 +25,7 @@ github_path: runs/2026-07-14/source-index.md
 
 ## Purpose
 
-This ledger records the source stack used to produce the July 14 meeting transcript analysis and the separate next-action, multi-conversation, and experiment-contract artifacts.
+This ledger records the source stack used to produce the July 14 meeting transcript analysis, the separate next-action, multi-conversation, and experiment-contract artifacts, and the bounded root-orchestrator setup pass authorized later on July 14.
 
 The packet is analysis and candidate planning evidence only. It does not independently verify candidate `ff94794`, authorize implementation, accept infrastructure, promote `main`, or replace `dda-agent-ops`.
 
@@ -61,6 +61,22 @@ The packet is analysis and candidate planning evidence only. It does not indepen
 | `meeting-to-goal-experiment-contract-v0.1.md` | Bounded review-only test contract for the next DDA iteration |
 | `codex-to-dda-completion-packet-v0.1.md` | Completion return for this documentation pass |
 | `update-summary-v0.1.md` | Compact outward-reporting summary and current holds |
+| `human-decision-record-experiment-setup-v0.1.md` | Human authorization boundary for Stages 1-2 and contract preparation |
+| `goal-and-measurement-contract-v0.1.md` | Frozen experiment goal, measures, pass/fail rules, and escalation conditions |
+| `conversation-lane-ledger-v0.1.md` | Root, researcher, executor, and verifier task state and lineage |
+| `researcher-delegation-contract-v0.1.md` | Frozen read-only researcher contract; dispatched and returned |
+| `executor-delegation-contract-v0.1.md` | Frozen bounded executor contract; dispatch authorized and send pending |
+| `independent-verifier-intake-contract-v0.1.md` | Prepared verifier intake; not dispatchable until a candidate is frozen |
+| `human-decision-record-researcher-dispatch-v0.1.md` | Follow-on human authorization to dispatch the frozen researcher contract and qualify its return |
+| `human-decision-record-executor-dispatch-v0.1.md` | Follow-on human authorization to dispatch the frozen executor contract and qualify its bounded return |
+
+## July 14 Setup Decision
+
+The human authorized the root orchestrator to execute experiment Stages 1-2 and prepare bounded specialist contracts. This authorization does not include specialist dispatch, external writes, commits, pushes, PR or `main` promotion, automation, runtime claims, repo replacement, or acceptance.
+
+A follow-on human decision authorizes dispatch of the frozen researcher contract only and authorizes the root to evaluate one primary return plus at most one correction cycle. Executor and verifier dispatch remain held.
+
+A later human decision authorizes the frozen executor phase and permits the root to evaluate one primary return plus at most one bounded correction cycle. Independent-verifier dispatch, commit, push, and external reporting remain held.
 
 ## Source Limitations
 
@@ -81,3 +97,10 @@ The packet is analysis and candidate planning evidence only. It does not indepen
 ## Proof Boundary
 
 No PR, `main`, canon, runtime, automation, memory, skill, eval, Context Vault, infrastructure-acceptance, or repo-replacement claim is created by this ledger.
+
+## Researcher Dispatch Artifacts
+
+| Artifact | Purpose |
+|---|---|
+| `researcher-return-v0.1.md` | Captured read-only researcher baseline and claim-evidence return |
+| `researcher-return-qualification-v0.1.md` | Root completeness qualification for future executor dependency use; not human acceptance |
