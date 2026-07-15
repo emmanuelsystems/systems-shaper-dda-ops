@@ -1,24 +1,24 @@
 ---
 title: EXP-02-R1 Lane Ledger
 asset_type: conversation_lane_ledger
-status: reconciled_ready_for_candidate_freeze
+status: verifier_accepted_human_decision_pending
 version: v0.1
 owner: Root Orchestrator
 created: 2026-07-15
 goal_id: EXP-02-PM2E-2026-07-15
 iteration_id: EXP-02-R1
-candidate_sha: pending
+candidate_sha: 7437f21e0a5461ee559196f36f145cae41b4caa2
 ---
 
 # EXP-02-R1 Lane Ledger
 
 | Lane | Logical task | Status | Frozen input | Expected return | Gate |
 |---|---|---|---|---|---|
-| Root | `EXP-02-R1-ROOT` | reconciled; candidate freeze pending | Human R1 authorization and original verifier return | R1 contract, reconciliation, manifest, scoreboard, and human decision record | Preserve original result; freeze exact SHA; no self-acceptance |
+| Root | `EXP-02-R1-ROOT` | final scoreboard complete | Human R1 authorization and original verifier return | R1 contract, reconciliation, manifest, scoreboard, and human decision record | Preserve original result; no self-acceptance |
 | Researcher | Reused dependency | complete before R1 | Root-qualified `exp-02-researcher-return-v0.1.md` | No new return | Exact selected goal already established; rerun not required |
 | Executor | `EXP-02-R1-EXECUTE` | returned and root-reconciled | R1 executor contract and frozen inputs | R1 candidate and executor return | Only two R1 files; exact goal; physical-file count; no self-acceptance |
-| Independent verifier | `EXP-02-R1-VERIFY` | held for candidate freeze | Exact R1 candidate SHA and manifest | Read-only scoped verdict | No moving target, implementation edit, or external write |
-| Human | `EXP-02-R1-DECIDE` | held for verifier result | R1 scoreboard and verifier return | `accept`, `revise`, `hold`, or `reject` | Human-only final decision |
+| Independent verifier | `EXP-02-R1-VERIFY` | returned `accepted` for decision-readiness | Exact R1 candidate SHA and manifest | Read-only scoped verdict | No moving target, implementation edit, or external write |
+| Human | `EXP-02-R1-DECIDE` | pending | R1 scoreboard and verifier return | `accept`, `revise`, `hold`, or `reject` | Human-only final decision |
 
 ## Iteration Accounting
 
@@ -36,6 +36,8 @@ candidate_sha: pending
 | 5 | Executor | Returned two authorized R1 files after `273.990` instrumented seconds and `9` tool calls | Root freeze check found one EOF-formatting defect |
 | 6 | Root Orchestrator | Found `new blank line at EOF` after the first R1 commit, contradicting the executor's whitespace check | Formatting-only defect; first R1 commit retained as intermediate evidence |
 | 7 | Executor | Removed the EOF blank line and updated its return in correction cycle 1; cumulative executor burden `14` tool calls and `310.901` instrumented seconds | One allowed R1 correction; no substantive, goal, source, or proof-boundary change |
+| 8 | Root Orchestrator | Froze corrected R1 candidate at `7437f21e0a5461ee559196f36f145cae41b4caa2` and dispatched independent verification | Exact-SHA review gate |
+| 9 | Independent Verifier | Returned `accepted` for R1 decision-readiness after `12` tool calls, `0` writes, and `184.994 ms` five-file recovery | Final human decision still pending |
 
 ## Proof Boundary
 

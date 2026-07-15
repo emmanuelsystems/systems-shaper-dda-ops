@@ -1,14 +1,14 @@
 ---
 title: EXP-02 Post-Meeting-to-Execution Source Index
 asset_type: run_artifact
-status: exp_02_r1_active_review_only
+status: exp_02_r1_verifier_accepted_human_decision_pending
 version: v0.1
 owner: Emmanuel Olana
 created: 2026-07-15
 approval_status: authorized_for_bounded_r1_rework
 parent_sha: 8063e95081d640f53f78db9ef345ab03ad8441ca
 candidate_sha: bc4b4cc401fd05b0311928a5a2fb87fa9f12eaf5
-r1_candidate_sha: pending_freeze
+r1_candidate_sha: 7437f21e0a5461ee559196f36f145cae41b4caa2
 runtime_claim: none
 automation_claim: none
 skill_claim: none
@@ -83,6 +83,8 @@ The July 14 action register describes many setup actions as open, while later lo
 | `exp-02-r1-verifier-return-v0.1.md` | Independent R1 verdict |
 | `exp-02-r1-final-scoreboard-v0.1.md` | R1 recomputed measures and decision logic |
 | `exp-02-r1-human-decision-record-v0.1.md` | Pending final R1 human gate |
+
+R1 candidate `7437f21e0a5461ee559196f36f145cae41b4caa2` received an independent `accepted` verdict for decision-readiness only. Final human acceptance and every promotion or runtime decision remain pending or held.
 
 ## Proof Boundary
 
