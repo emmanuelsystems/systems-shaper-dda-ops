@@ -1,11 +1,11 @@
 ---
 title: EXP-02 Post-Meeting-to-Execution Source Index
 asset_type: run_artifact
-status: exp_02_r1_verifier_accepted_human_decision_pending
+status: exp_02_r1_human_accepted_working_optimization_target_defined
 version: v0.1
 owner: Emmanuel Olana
 created: 2026-07-15
-approval_status: authorized_for_bounded_r1_rework
+approval_status: r1_accepted_target_authorized_for_bounded_design
 parent_sha: 8063e95081d640f53f78db9ef345ab03ad8441ca
 candidate_sha: bc4b4cc401fd05b0311928a5a2fb87fa9f12eaf5
 r1_candidate_sha: 7437f21e0a5461ee559196f36f145cae41b4caa2
@@ -82,9 +82,17 @@ The July 14 action register describes many setup actions as open, while later lo
 | `exp-02-r1-candidate-manifest-v0.1.md` | R1 candidate file and hash manifest |
 | `exp-02-r1-verifier-return-v0.1.md` | Independent R1 verdict |
 | `exp-02-r1-final-scoreboard-v0.1.md` | R1 recomputed measures and decision logic |
-| `exp-02-r1-human-decision-record-v0.1.md` | Pending final R1 human gate |
+| `exp-02-r1-human-decision-record-v0.1.md` | Human acceptance of bounded R1 decision-readiness |
+| `human-decision-record-dda-optimization-target-v0.1.md` | Human instruction authorizing the working target definition |
+| `dda-optimization-target-v0.1.md` | Working DDA optimization target and measurement model |
 
-R1 candidate `7437f21e0a5461ee559196f36f145cae41b4caa2` received an independent `accepted` verdict for decision-readiness only. Final human acceptance and every promotion or runtime decision remain pending or held.
+R1 candidate `7437f21e0a5461ee559196f36f145cae41b4caa2` received an independent `accepted` verdict for decision-readiness only. Emmanuel then accepted that bounded R1 result. Every promotion, external-write, canon, and runtime decision remains held.
+
+## Current Working Optimization Target
+
+The DDA now has a human-directed working target for bounded experiment design: maximize first-pass delivery of human-approved, independently verified, human-accepted goal outcomes while reducing time-to-outcome and human coordination burden, under zero permission or proof-boundary breaches.
+
+The full metric definitions, eligibility rule, improvement rule, decision rights, and trace requirements are in `dda-optimization-target-v0.1.md`.
 
 ## Proof Boundary
 
