@@ -1,7 +1,7 @@
 ---
 title: July 15 DDA Experiment Source Index
 asset_type: run_artifact
-status: exp_03_verifier_accepted_human_gate_pending
+status: exp_03_verifier_accepted_human_gate_pending_ctr_01_frozen
 version: v0.1
 owner: Emmanuel Olana
 created: 2026-07-15
@@ -12,10 +12,12 @@ r1_candidate_sha: 7437f21e0a5461ee559196f36f145cae41b4caa2
 exp_03_setup_sha: 17346a3707204566e228e2a621b67493483f5e4f
 exp_03_candidate_sha: 763ef60c3923cb2dbfaa7ed94f068bcfaf1b531a
 exp_03_verifier_result_sha: 2e80b24c6fb0609a940209a8cfb42a96e9030da7
+ctr_01_candidate_sha: b472bd1d65b064c32fe22b44b2fe504f9e18be8a
 runtime_claim: none
 automation_claim: none
 skill_claim: none
-external_write_claim: none
+external_write_claim: github_transport_only
+github_push_claim: transport_only
 github_path: runs/2026-07-15/source-index.md
 ---
 
@@ -120,6 +122,21 @@ The decision brief is the outcome. The remaining EXP-03 files are instrumentatio
 
 Candidate `763ef60c3923cb2dbfaa7ed94f068bcfaf1b531a` received an independent `accepted` verdict for decision-readiness only. The final human decision remains pending, so baseline observation 1 is open and no improvement claim is supported.
 
+## CTR-01 Current-Truth Retrieval Candidate
+
+CTR-01 is a separate design-only candidate for a minimum current-truth index, artifact registry, and bounded recovery bundles above immutable dated-run evidence.
+
+Its seven-file packet was frozen on branch `codex/current-truth-retrieval-20260715` at candidate `b472bd1d65b064c32fe22b44b2fe504f9e18be8a`, whose parent is accepted-target commit `66f52f5f31dcb370645a52795ea9f6ec220b866c`. EXP-03 history is intentionally excluded from the CTR-01 candidate lineage.
+
+CTR-01 is ready for exact-SHA independent review. It is not accepted, implemented, validated, runtime-ready, or authorized for a live `current/` projection.
+
+## EOD Reporting Artifact
+
+| Artifact | Role |
+|---|---|
+| `eod-progress-report-v0.1.md` | First-person July 15 experiment report, David-meeting alignment, review links, current holds, and next gates |
+| `human-decision-record-eod-report-and-push-v0.1.md` | Current authorization for scoped commit and GitHub push transport only |
+
 ## Proof Boundary
 
-No external write, runtime action, automation activation, skill or eval promotion, PR, `main` promotion, infrastructure acceptance, repo replacement, validation, or canon claim is authorized.
+No external write beyond the currently authorized GitHub transport, runtime action, automation activation, skill or eval promotion, PR, `main` promotion, infrastructure acceptance, repo replacement, validation, or canon claim is authorized.
