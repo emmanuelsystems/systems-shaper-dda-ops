@@ -1,7 +1,7 @@
 ---
 title: EXP-02 Post-Meeting-to-Execution Source Index
 asset_type: run_artifact
-status: exp_03_executor_return_qualified_candidate_freeze_pending
+status: exp_03_verifier_accepted_human_gate_pending
 version: v0.1
 owner: Emmanuel Olana
 created: 2026-07-15
@@ -111,8 +111,11 @@ The decision brief is the outcome. The remaining EXP-03 files are instrumentatio
 | `exp-03-executor-return-v0.1.md` | Executor evidence, timing, burden, and limitation record |
 | `exp-03-root-reconciliation-v0.1.md` | Root qualification, conflict resolution, and candidate-freeze decision |
 | `exp-03-candidate-manifest-v0.1.md` | Exact candidate file and hash manifest |
+| `exp-03-verifier-return-v0.1.md` | Independent exact-SHA verifier result |
+| `exp-03-final-scoreboard-v0.1.md` | Baseline observation 1 measures and open-cycle decision logic |
+| `exp-03-human-decision-record-v0.1.md` | Pending final human `accept`, `revise`, `hold`, or `reject` gate |
 
-Current gate: the executor primary return is qualified for candidate freeze. No candidate SHA, verifier result, final human decision, or improvement claim exists yet.
+Candidate `763ef60c3923cb2dbfaa7ed94f068bcfaf1b531a` received an independent `accepted` verdict for decision-readiness only. The final human decision remains pending, so baseline observation 1 is open and no improvement claim is supported.
 
 ## Proof Boundary
 
