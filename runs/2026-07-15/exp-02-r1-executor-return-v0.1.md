@@ -25,10 +25,13 @@ approval_status: not_approved
 - Deterministic-check completion: `2026-07-15T11:01:06.9172051+08:00`
 - Instrumented R1 duration: `273.990 seconds`
 - Limitation: the mandatory AGENTS/contract read and one no-result memory orientation search preceded the instrumented timestamp. Exact task-receipt-to-instrumentation time is `unknown` and is not combined with the original iteration's burden.
-- R1 top-level tool calls through final check: `9`
+- R1 correction cycle 1 start: `2026-07-15T11:04:09.9935891+08:00`
+- R1 correction cycle 1 check completion: `2026-07-15T11:04:46.9046864+08:00`
+- R1 correction cycle 1 duration: `36.911 seconds`
+- R1 top-level tool calls through correction-cycle final check: `14`
 - Clarifications: `0`
 - User redirections: `0`
-- Content correction cycles: `0`
+- Content correction cycles: `1` (formatting-only)
 - External connector calls: `0`
 - External reads/writes: `0`
 - Commits or pushes: `0`
@@ -40,7 +43,7 @@ approval_status: not_approved
 1. `runs/2026-07-15/exp-02-r1-post-meeting-execution-candidate-v0.1.md`
 2. `runs/2026-07-15/exp-02-r1-executor-return-v0.1.md`
 
-R1 candidate SHA-256 after creation: `EECF209E17DB7AC6A38C61D80198D70D5EF0763B319EEDD01B0A645129476F26`.
+R1 candidate SHA-256 after correction cycle 1: `E50AF0946D27231CBF9D3BD7BF2A14E8C51D03401C4156E70395F0AD767A30AF`.
 
 The return does not record its own final hash because a file cannot contain its final self-hash.
 
@@ -83,18 +86,20 @@ Final checks cover:
 
 These are executor structural checks. They do not replace root reconciliation, exact-SHA freeze, independent verification, or human acceptance.
 
-Pre-hash check results: exact goal match `true`; task rows `7/7`; complete required-field rows `7/7`; goal-linked rows `7/7`; covered material claims `16/16`; physical recovery files `5`; original working-tree hashes unchanged `3/3`; non-ASCII characters `0`; mojibake matches `0`; diff-whitespace issues `0`; authorized R1 paths `2`.
+Original executor check results: exact goal match `true`; task rows `7/7`; complete required-field rows `7/7`; goal-linked rows `7/7`; covered material claims `16/16`; physical recovery files `5`; original working-tree hashes unchanged `3/3`; non-ASCII characters `0`; mojibake matches `0`; authorized R1 paths `2`. Root's stricter freeze check found `new blank line at EOF`, contradicting the original `0` diff-whitespace claim. Correction cycle 1 removes that formatting defect and reruns a strict check for the exact Git diagnostic.
+
+Correction-cycle pre-hash results: strict diff issues `0`; exact goal match `true`; original working-tree hashes unchanged `3/3`; non-ASCII characters `0`; updated candidate SHA-256 recorded above.
 
 ## 6. R1 Burden and Interventions
 
 - Instrumented active time through checks: `273.990 seconds`.
 - Exact pre-instrumentation time: `unknown`.
-- R1 top-level tool calls: `9`: governing read, memory no-result search, frozen-input read, original-candidate re-read, parent status message, creation patch, pre-hash check, metadata-finalization patch, and final check.
+- R1 top-level tool calls: `14` total. Original R1 return used `9`; correction cycle 1 uses `5`: defect/timing inspection, formatting/metadata patch, pre-hash strict check, hash/timing finalization patch, and final integrity check.
 - One combined source read was truncated by the display and required one bounded original-candidate re-read; this was read burden, not a content correction.
 - Human clarifications: `0`.
 - Human redirections: `0`.
 - Primary R1 executor returns: `1`.
-- R1 content corrections: `0`.
+- R1 content corrections: `1` (EOF formatting only; no substantive content change).
 - External writes: `0`.
 - Original iteration measurements remain separate and unchanged.
 
@@ -111,6 +116,7 @@ Pre-hash check results: exact goal match `true`; task rows `7/7`; complete requi
 
 - Original major defect preserved in lineage: goal drift plus a false unchanged claim; original verifier result remains `rework`.
 - Original minor defect repaired in R1: physical files are counted individually instead of treating a return/qualification pair as one packet.
+- R1 formatting defect found by root freeze: the candidate had one new blank line at EOF. The original executor check failed to recognize Git's exact `new blank line at EOF` diagnostic and incorrectly reported zero diff-whitespace issues. Correction cycle 1 removes the blank line and uses the exact diagnostic in the strict check.
 - R1 display burden: one combined frozen-input read was truncated and required a bounded re-read of the original candidate. No source or content was skipped.
 - Pre-freeze gap: no exact R1 `candidate_sha` exists until root freezes the review set.
 - Acceptance gap: no R1 independent verifier result or final human decision exists.

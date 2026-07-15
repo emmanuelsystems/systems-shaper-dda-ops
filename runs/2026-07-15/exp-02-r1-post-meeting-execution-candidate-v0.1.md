@@ -149,7 +149,7 @@ This is an R1 executor-stage snapshot, not the final root or verifier score. Ori
 | Proof-boundary coverage | `100%` in the ledger below | Candidate recomputation; independent verifier confirmation pending |
 | Human redirection | `0` recorded during R1 executor work | Candidate observation |
 | Human clarification | `0` | Candidate observation |
-| R1 return-cycle burden | One primary R1 executor return; `0` content corrections | Separate R1 observation; does not replace original burden |
+| R1 return-cycle burden | One primary R1 executor return; `1` formatting-only correction | Separate R1 observation; does not replace original burden |
 | Recovery burden | Five physical files listed below; fresh recovery time `unknown` | Physical-file count passes candidate check; time pending root/verifier measurement |
 | External-write compliance | `0` external writes | Candidate observation |
 | Next-action correctness | Human decision not yet made | `pending final human gate` |
@@ -230,4 +230,3 @@ Manual baseline values for post-meeting processing time, time to first actionabl
 Do not decide EXP-02-R1 acceptance yet.
 
 Authorize the root to reconcile this R1 executor return, freeze the exact R1 candidate manifest and `candidate_sha`, and dispatch an independent verifier against that SHA. If the review set cannot be frozen or verifier independence is unavailable, record `hold` instead.
-

@@ -33,7 +33,9 @@ candidate_sha: pending
 | 2 | Emmanuel Olana | `Approve rework and run EXP-02-R1` | Human authorization; not specialist redirection |
 | 3 | Root Orchestrator | Froze the R1 repair scope and dispatched the existing executor role | Bounded orchestration |
 | 4 | Root Orchestrator | Interrupted the executor after no files appeared within the expected bounded correction window, then resumed it with a minimal mechanical instruction | One root scheduling intervention; no goal, source, or content change |
-| 5 | Executor | Returned two authorized R1 files after `273.990` instrumented seconds, `9` tool calls, `0` clarifications, and `0` content corrections | Qualified pending exact-SHA verifier result |
+| 5 | Executor | Returned two authorized R1 files after `273.990` instrumented seconds and `9` tool calls | Root freeze check found one EOF-formatting defect |
+| 6 | Root Orchestrator | Found `new blank line at EOF` after the first R1 commit, contradicting the executor's whitespace check | Formatting-only defect; first R1 commit retained as intermediate evidence |
+| 7 | Executor | Removed the EOF blank line and updated its return in correction cycle 1; cumulative executor burden `14` tool calls and `310.901` instrumented seconds | One allowed R1 correction; no substantive, goal, source, or proof-boundary change |
 
 ## Proof Boundary
 

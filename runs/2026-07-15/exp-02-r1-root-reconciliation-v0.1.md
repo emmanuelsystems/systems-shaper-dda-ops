@@ -33,15 +33,17 @@ Reconcile the separately authorized R1 executor return against the original veri
 | Measure | Observation | Boundary |
 |---|---:|---|
 | Primary R1 executor returns | `1` | Separate from original iteration |
-| R1 content corrections | `0` | Pass |
-| R1 executor instrumented time | `273.990 seconds` | Recorded, not compared to an unknown manual baseline |
-| R1 executor tool calls | `9` | Recorded |
+| R1 content corrections | `1` EOF-formatting correction | Pass at allowed maximum; no substantive change |
+| R1 executor instrumented time | `310.901 seconds` across initial return and correction | Recorded, not compared to an unknown manual baseline |
+| R1 executor tool calls | `14` | Recorded |
 | Human redirections | `0` | Pass |
 | Human clarifications | `0` | Pass |
 | Root scheduling interventions | `1` stop/resume | Disclosed orchestration burden; no goal or content change |
 | Unauthorized external writes | `0` recorded | Pass from available evidence |
 
 The root intervention stopped a delayed lane after no files appeared, then resumed the same executor with a minimal mechanical instruction. It did not change the goal, frozen sources, required repairs, or allowed files. It is not counted as a user redirection, but it is preserved as orchestration burden.
+
+The first R1 freeze check then found one extra EOF blank line that contradicted the executor's reported whitespace result. The executor used R1 correction cycle 1 to remove only that blank line and update its burden record. The first R1 commit remains intermediate evidence; the later correction commit is the candidate supplied to the verifier.
 
 ## Material-Claim Ledger
 
