@@ -59,6 +59,9 @@ The July 14 action register describes many setup actions as open, while later lo
 | `exp-02-root-reconciliation-v0.1.md` | Root claim ledger and candidate qualification |
 | `exp-02-verifier-intake-v0.1.md` | Frozen verifier contract |
 | `exp-02-candidate-manifest-v0.1.md` | Exact candidate file and hash manifest |
+| `exp-02-verifier-return-v0.1.md` | Independent `rework` verdict at candidate `bc4b4cc` |
+| `exp-02-final-scoreboard-v0.1.md` | Recomputed measures and decision logic |
+| `exp-02-human-decision-record-v0.1.md` | Pending final human gate |
 
 ## Proof Boundary
 
