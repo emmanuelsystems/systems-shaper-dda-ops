@@ -17,7 +17,7 @@ external_write_claim: github_transport_only
 
 ## Purpose
 
-Record the July 23 morning recovery, the July 22-to-July 23 GitHub transport update, and one review-only pre-meeting flow grounded in David's July 21 Slack request. This ledger points back to the original July 22 artifacts instead of redating them.
+Record the July 23 morning recovery, the July 22-to-July 23 GitHub transport update, one review-only pre-meeting flow grounded in David's July 21 Slack request, and a July 14-to-July 23 experiment-progress synthesis. This ledger points back to the original dated artifacts instead of redating them.
 
 ## Freshness Window
 
@@ -38,6 +38,19 @@ Read-only source recovery was performed on July 23 at approximately 07:14 Asia/S
 | [Linear SSI-120](https://linear.app/systemsshaper/issue/SSI-120/review-orchestrator-repo-and-karpathy-llm-council-for-dda-loop) | `Todo`, unstarted, overdue from July 20, no completion timestamp | Current planning/status surface; no update performed |
 | GitHub remote refs | Correction branch at `2fb4f62`; verifier/completion branch at `b4d4aa8` | Transport verified July 23; commit/push is not acceptance |
 
+## July 14 Progress-Packet Source Set
+
+| Exact evidence | Use | Publication boundary |
+|---|---|---|
+| July 14 MTA and experiment setup at `8063e95` | Meeting direction, retained evidence layer, missing optimization/measurement loop | Published through current remote ancestry |
+| EXP-02 candidate `bc4b4cc` and verifier `b4bbf9c` | Original `rework`, goal drift, and evidence-coverage failure | Published through current remote ancestry |
+| EXP-02-R1 candidate `7437f21`, verifier `005e453`, and human decision `66f52f5` | Bounded correction acceptance and calibration classification | Published through `origin/codex/bootstrap-systems-shaper-dda-ops-20260706` |
+| EXP-03 candidate `763ef60` and verifier `2e80b24` | Decision-ready implementation brief | Published through `origin/codex/exp-03-baseline-20260715` |
+| EXP-03 classification `2d6d149` | Human `revise`; `pre_baseline_meta_operational`; real baseline `0/3` | Local exact Git object; no remote branch verified |
+| CTR-01 candidate `b472bd1`, R1 `ed0410f`, verifier `ee37950` | Current-truth design and R1 decision-readiness | Original published; R1/result local exact Git objects only |
+| TOML replay candidate `d45d8d9` and verifier `188b417` | Open-book retrospective routing-policy consistency test | Local exact Git objects; no remote branch verified |
+| July 17 decision closure `ef539a2` | EXP-03 `revise`, CTR-01 `hold`, first real outcome preflight | Published |
+
 ## Artifact Set
 
 | Artifact | Role |
@@ -48,6 +61,8 @@ Read-only source recovery was performed on July 23 at approximately 07:14 Asia/S
 | `early-alignment-checkpoint-v0.1.md` | Slack-ready first-session checkpoint; not sent |
 | `update-summary-v0.1.md` | July 23 transport receipt pointing to the original July 22 artifacts |
 | `verification-hold-v0.1.md` | Repo-local consistency result and explicit human/logistics hold |
+| `july-14-to-july-23-experiment-progress-packet-v0.1.md` | Detailed meeting-to-experiment trace, results, progress assessment, and terminology table |
+| `july-14-to-july-23-progress-summary-v0.1.md` | Concise summary of changes, experiments, results, and current proof gap |
 
 ## Proof Boundary
 

@@ -22,6 +22,10 @@ The July 22 work was not redated or rewritten. Its two scoped branches were push
 
 Today's new review branch is `codex/ssi-119-pre-meeting-20260723`, rooted at `b4d4aa8c48b05da6bc141ec6a940f3483bfa4707`. It adds the current morning brief, source-linked review packet, walkthrough script, early-alignment draft, this update summary, and a verification hold.
 
+## Additional July 14 Progress Packet
+
+The branch also adds a source-recovered July 14-to-July 23 experiment progress packet and concise summary. The packet traces the July 14 meeting direction through EXP-02, EXP-02-R1, EXP-03, CTR-01-R1, the TOML policy replay, and SSI-119 reconciliation. It includes a terminology table and preserves the controlling conclusion that the real-outcome baseline remains `0/3` and operational improvement is unproven.
+
 ## Original July 22 Artifacts
 
 - [July 22 source index](https://github.com/emmanuelsystems/systems-shaper-dda-ops/blob/2fb4f621998b2af5fd8f51da35bba159d484e767/runs/2026-07-22/source-index.md)
@@ -32,4 +36,4 @@ Today's new review branch is `codex/ssi-119-pre-meeting-20260723`, rooted at `b4
 
 ## Proof Boundary
 
-Remote publication is now established for the July 22 Git objects and immutable links. This does not establish human acceptance, Linear closure, meeting completion, runtime readiness, canon, or approval of CTR-01/SSI-120 work. No Slack, Linear, Calendar, Notion, PR, merge, or `main` write was performed.
+Remote publication is now established for the July 22 Git objects and immutable links. The historical progress synthesis also relies on some local-only exact Git objects whose remote branches were not established; those boundaries are named in the packet. This does not establish human acceptance, Linear closure, meeting completion, runtime readiness, canon, operational improvement, or approval of CTR-01/SSI-120 work. No Slack, Linear, Calendar, Notion, PR, merge, or `main` write was performed.
