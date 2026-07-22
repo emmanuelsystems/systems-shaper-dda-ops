@@ -25,7 +25,7 @@ The proposed July 23 huddle is not confirmed. No Calendar event and no David rep
 | 2 | David / Emmanuel | Confirm huddle date, time, location/link, and recording plan | Before substantive review | David response; Calendar or other meeting surface | If unconfirmed, stop and reschedule; do not treat prep as a completed meeting |
 | 3 | Emmanuel | External reconciliation decision | Immediately after SSI-119 disposition | Human decision | Decide whether to update Linear and post Slack status; neither is authorized by this packet |
 | 4 | Emmanuel | SSI-120 comparison note | After SSI-119 gate | Exact project identification and source-backed comparison | Keep `partial`; complete the issue-contract comparison note or explicitly hold it |
-| 5 | Emmanuel | Early `#diarized-daily` checkpoint | Before the confirmed meeting | Human review of the prepared text | Use `early-alignment-checkpoint-v0.1.md`; it has not been sent |
+| 5 | Emmanuel | Monitor the sent `#diarized-daily` checkpoint for David's response | Before the confirmed meeting | Checkpoint sent at `1784763243.083119` | Preserve the message as coordination evidence; do not infer a decision from silence |
 
 ## Upcoming, Not Yet Authorized
 

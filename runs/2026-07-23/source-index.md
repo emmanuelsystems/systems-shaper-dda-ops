@@ -1,7 +1,7 @@
 ---
 title: July 23 SSI-119 Morning and Pre-Meeting Source Index
 asset_type: run_artifact
-status: candidate_pending_human_review_and_meeting_confirmation
+status: alignment_sent_pending_human_review_and_meeting_confirmation
 version: v0.1
 owner: Emmanuel Olana
 created: 2026-07-23
@@ -10,7 +10,7 @@ parent_sha: b4d4aa8c48b05da6bc141ec6a940f3483bfa4707
 approval_status: not_accepted
 runtime_claim: none
 automation_claim: none
-external_write_claim: github_transport_only
+external_write_claim: github_and_slack_transport
 ---
 
 # July 23 SSI-119 Morning and Pre-Meeting Source Index
@@ -37,6 +37,7 @@ Read-only source recovery was performed on July 23 at approximately 07:14 Asia/S
 | [Linear SSI-119](https://linear.app/systemsshaper/issue/SSI-119/prepare-july-20-bounded-r1-correction-packet-from-ef539a2) | `Todo`, unstarted, overdue from July 20, no completion timestamp | Current planning/status surface; no update performed |
 | [Linear SSI-120](https://linear.app/systemsshaper/issue/SSI-120/review-orchestrator-repo-and-karpathy-llm-council-for-dda-loop) | `Todo`, unstarted, overdue from July 20, no completion timestamp | Current planning/status surface; no update performed |
 | GitHub remote refs | Correction branch at `2fb4f62`; verifier/completion branch at `b4d4aa8` | Transport verified July 23; commit/push is not acceptance |
+| [July 23 early alignment checkpoint](https://systemsshaperinc.slack.com/archives/C073QL4CFC4/p1784763243083119) | Top-level message sent to `#diarized-daily` at `1784763243.083119` | Coordination delivery only; no human disposition or Linear closure follows |
 
 ## July 14 Progress-Packet Source Set
 
@@ -58,7 +59,7 @@ Read-only source recovery was performed on July 23 at approximately 07:14 Asia/S
 | `morning-prep-v0.1.md` | Pending versus upcoming work, freshness gaps, and open order |
 | `ssi-119-pre-meeting-review-packet-v0.1.md` | Source-linked status, SSI-120 research boundary, limitations, decisions, and next bounded action |
 | `ssi-119-pre-meeting-walkthrough-script-v0.1.md` | 20-30 minute presentation script and stop conditions |
-| `early-alignment-checkpoint-v0.1.md` | Slack-ready first-session checkpoint; not sent |
+| `early-alignment-checkpoint-v0.1.md` | Exact sent Slack checkpoint plus delivery receipt |
 | `update-summary-v0.1.md` | July 23 transport receipt pointing to the original July 22 artifacts |
 | `verification-hold-v0.1.md` | Repo-local consistency result and explicit human/logistics hold |
 | `july-14-to-july-23-experiment-progress-packet-v0.1.md` | Detailed meeting-to-experiment trace, results, progress assessment, and terminology table |
@@ -66,4 +67,4 @@ Read-only source recovery was performed on July 23 at approximately 07:14 Asia/S
 
 ## Proof Boundary
 
-The July 22 candidate and verifier result are now remotely reachable. SSI-119 is still not human-accepted or closed in Linear. SSI-120 remains partial. The meeting is unconfirmed. No Slack post, Linear update, Calendar write, PR, merge, `main` update, runtime action, automation, memory save, promotion, or canon change was performed.
+The July 22 candidate and verifier result are remotely reachable, and the early alignment checkpoint was sent to `#diarized-daily`. SSI-119 is still not human-accepted or closed in Linear. SSI-120 remains partial. The meeting is unconfirmed. No Linear update, Calendar write, Notion write, PR, merge, `main` update, runtime action, automation, memory save, promotion, or canon change was performed.
