@@ -1,7 +1,7 @@
 ---
 title: July 23 SSI-119 Morning and Pre-Meeting Source Index
 asset_type: run_artifact
-status: alignment_sent_pending_human_review_and_meeting_confirmation
+status: david_receipt_prepared_pending_send_and_meeting_confirmation
 version: v0.1
 owner: Emmanuel Olana
 created: 2026-07-23
@@ -68,6 +68,7 @@ Read-only source recovery was performed on July 23 at approximately 07:14 Asia/S
 | `july-14-to-july-23-experiment-progress-packet-v0.1.md` | Detailed meeting-to-experiment trace, results, progress assessment, and terminology table |
 | `july-14-to-july-23-progress-summary-v0.1.md` | Concise summary of changes, experiments, results, and current proof gap |
 | `david-meeting-start-here-v0.1.md` | Document-first walkthrough requested by David; logistics remain unconfirmed |
+| `david-receipt-closure-thread-reply-v0.1.md` | Thread-reply candidate covering David's exact remaining fields; not sent |
 
 ## Proof Boundary
 

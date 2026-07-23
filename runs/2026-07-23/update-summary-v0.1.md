@@ -40,6 +40,8 @@ David replied in the checkpoint thread at `1784765147.037769`. He requested four
 
 The start-here document was prepared under `runs/2026-07-23/`. Logistics remain unconfirmed. No Linear or GitHub issue/status change is authorized by David's reply.
 
+A thread-reply candidate was also prepared with the exact publication authority statement, SSI-120 source/location classification, unresolved logistics checklist, and immutable start-here link. It is `not_sent` pending Emmanuel's send instruction.
+
 ## Original July 22 Artifacts
 
 - [July 22 source index](https://github.com/emmanuelsystems/systems-shaper-dda-ops/blob/2fb4f621998b2af5fd8f51da35bba159d484e767/runs/2026-07-22/source-index.md)
