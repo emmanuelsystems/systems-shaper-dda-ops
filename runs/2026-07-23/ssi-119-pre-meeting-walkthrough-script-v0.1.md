@@ -13,13 +13,15 @@ external_write_claim: none
 
 ## Before the Call
 
-Open in this order:
+Open one document first, then use the remaining links only as supporting evidence:
 
-1. [David's July 21 direction](https://systemsshaperinc.slack.com/archives/C073QL4CFC4/p1784583652642079?thread_ts=1784538966.012259&cid=C073QL4CFC4)
-2. [Frozen SSI-119 candidate](https://github.com/emmanuelsystems/systems-shaper-dda-ops/commit/2fb4f621998b2af5fd8f51da35bba159d484e767)
-3. [Detached verifier result](https://github.com/emmanuelsystems/systems-shaper-dda-ops/blob/9aa111f597c9adeda29f04eb6c094e04dd286995/runs/2026-07-22/ssi-119-r1-verifier-return-v0.1.md)
-4. [Completion return](https://github.com/emmanuelsystems/systems-shaper-dda-ops/blob/b4d4aa8c48b05da6bc141ec6a940f3483bfa4707/runs/2026-07-22/codex-to-dda-ssi-119-r1-completion-v0.1.md)
-5. [July 23 review packet](ssi-119-pre-meeting-review-packet-v0.1.md)
+1. [David meeting start-here walkthrough](david-meeting-start-here-v0.1.md)
+2. [David's July 21 direction](https://systemsshaperinc.slack.com/archives/C073QL4CFC4/p1784583652642079?thread_ts=1784538966.012259&cid=C073QL4CFC4)
+3. [Frozen SSI-119 candidate](https://github.com/emmanuelsystems/systems-shaper-dda-ops/commit/2fb4f621998b2af5fd8f51da35bba159d484e767)
+4. [Detached verifier result](https://github.com/emmanuelsystems/systems-shaper-dda-ops/blob/9aa111f597c9adeda29f04eb6c094e04dd286995/runs/2026-07-22/ssi-119-r1-verifier-return-v0.1.md)
+5. [Completion return](https://github.com/emmanuelsystems/systems-shaper-dda-ops/blob/b4d4aa8c48b05da6bc141ec6a940f3483bfa4707/runs/2026-07-22/codex-to-dda-ssi-119-r1-completion-v0.1.md)
+
+Do not reproduce transcript content. Use the start-here document for status, corrections, limitations, SSI-120 facts versus inference, decisions, and next action.
 
 Do not start the walkthrough until David confirms the date, time, location/link, and recording plan.
 

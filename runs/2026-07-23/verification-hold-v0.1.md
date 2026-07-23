@@ -28,6 +28,9 @@ external_write_claim: none
 | EXP-03 is excluded from the real-outcome baseline and `0/3` is explicit | Pass |
 | Local-only versus remotely published historical Git objects are separated | Pass |
 | Terminology distinguishes verification, validation, acceptance, runtime readiness, and canon | Pass |
+| David's four requested receipt/prep sections are present in the document-first walkthrough | Pass |
+| SSI-120 exact sources are separated from the missing comparison-note output | Pass |
+| Date/time conflict is held rather than normalized by inference | Pass |
 
 ## Hold
 
@@ -38,5 +41,6 @@ These July 23 packets are held pending:
 3. an explicit SSI-119 human disposition;
 4. separate authorization for any Linear reconciliation or additional Slack reconciliation beyond the sent checkpoint.
 5. human review of the July 14-to-July 23 experiment synthesis and terminology definitions.
+6. David's authoritative meeting and recording logistics.
 
 The July 22 independent verifier result applies only to exact candidate `2fb4f621998b2af5fd8f51da35bba159d484e767`. Earlier verifier results apply only to their named EXP/CTR/replay candidates. None independently verifies or accepts today's reporting, meeting-prep, historical synthesis, or terminology artifacts.

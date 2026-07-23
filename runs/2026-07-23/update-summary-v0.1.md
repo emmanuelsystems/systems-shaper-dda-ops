@@ -34,6 +34,12 @@ The approved early alignment checkpoint was posted as a top-level message in `#d
 - Delivery purpose: pre-meeting status, exact Git evidence, current blockers, and logistics/recording confirmation request.
 - Delivery does not create SSI-119 human acceptance or Linear closure.
 
+## David Receipt-Closure Direction
+
+David replied in the checkpoint thread at `1784765147.037769`. He requested four remaining receipt/prep fields before the meeting: publication authority; SSI-120 classification, exact sources, and comparison-note location; explicit hold on the July 22 PDT versus July 23 Asia/Shanghai date conflict; and one document-first start-here walkthrough.
+
+The start-here document was prepared under `runs/2026-07-23/`. Logistics remain unconfirmed. No Linear or GitHub issue/status change is authorized by David's reply.
+
 ## Original July 22 Artifacts
 
 - [July 22 source index](https://github.com/emmanuelsystems/systems-shaper-dda-ops/blob/2fb4f621998b2af5fd8f51da35bba159d484e767/runs/2026-07-22/source-index.md)

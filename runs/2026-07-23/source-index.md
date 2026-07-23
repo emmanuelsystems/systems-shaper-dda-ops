@@ -38,6 +38,9 @@ Read-only source recovery was performed on July 23 at approximately 07:14 Asia/S
 | [Linear SSI-120](https://linear.app/systemsshaper/issue/SSI-120/review-orchestrator-repo-and-karpathy-llm-council-for-dda-loop) | `Todo`, unstarted, overdue from July 20, no completion timestamp | Current planning/status surface; no update performed |
 | GitHub remote refs | Correction branch at `2fb4f62`; verifier/completion branch at `b4d4aa8` | Transport verified July 23; commit/push is not acceptance |
 | [July 23 early alignment checkpoint](https://systemsshaperinc.slack.com/archives/C073QL4CFC4/p1784763243083119) | Top-level message sent to `#diarized-daily` at `1784763243.083119` | Coordination delivery only; no human disposition or Linear closure follows |
+| [David's receipt-closure reply](https://systemsshaperinc.slack.com/archives/C073QL4CFC4/p1784765147037769?thread_ts=1784763243.083119&cid=C073QL4CFC4) | Requests publication authority, SSI-120 exact sources/location, date-conflict hold, and one document-first walkthrough | Coordination direction; explicitly does not accept SSI-119 or authorize Linear/GitHub status changes |
+| `Cjbuilds/Codex-Orchestration` at `d7d2150776376a3186f0f452d3b119b1f7363ff7` | Exact orchestration checkout reviewed on July 20 | Current remote HEAD has moved; later commits are not treated as reviewed evidence |
+| `karpathy/llm-council` at `92e1fccb1bdcf1bab7221aa9ed90f9dc72529131` | Exact SSI-120 council source resolved July 23 | Source identity only; comparison note still not created |
 
 ## July 14 Progress-Packet Source Set
 
@@ -64,6 +67,7 @@ Read-only source recovery was performed on July 23 at approximately 07:14 Asia/S
 | `verification-hold-v0.1.md` | Repo-local consistency result and explicit human/logistics hold |
 | `july-14-to-july-23-experiment-progress-packet-v0.1.md` | Detailed meeting-to-experiment trace, results, progress assessment, and terminology table |
 | `july-14-to-july-23-progress-summary-v0.1.md` | Concise summary of changes, experiments, results, and current proof gap |
+| `david-meeting-start-here-v0.1.md` | Document-first walkthrough requested by David; logistics remain unconfirmed |
 
 ## Proof Boundary
 
