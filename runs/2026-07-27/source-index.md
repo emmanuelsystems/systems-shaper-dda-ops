@@ -1,7 +1,7 @@
 ---
 title: David Recovered-State Alignment Disposition Source Index
 asset_type: source_index
-status: human_disposition_and_test_inputs_frozen_review_only
+status: human_disposition_and_pmot_01_lanes_authorized_not_started
 version: v0.1
 owner: David Abiera
 created: 2026-07-27
@@ -9,9 +9,10 @@ branch: codex/david-934fbd7-alignment-disposition-return-20260727
 parent_sha: 2e250b1edf75790f2fb5009aa1ea6c9edf0f5f2b
 reviewed_candidate_sha: 934fbd7e36230e065996a4a3c1d77247b079b446
 human_disposition: accept_for_recovered_state_alignment_only
-experiment_status: planned_not_authorized
-decision_question_status: frozen
+experiment_status: lanes_authorized_not_started
+decision_question_status: revised_and_frozen_v0_2
 manual_baseline_status: frozen_with_explicit_unknowns
+lane_authorization_status: authorized_not_dispatched
 runtime_claim: none
 automation_claim: none
 external_write_claim: scoped_branch_commit_and_push_only
@@ -69,7 +70,8 @@ the five dependent historical claims can re-enter David's shared decision basis.
 
 | Artifact | Status | Scope |
 |---|---|---|
-| `pre-meeting-outcome-test-question-and-manual-baseline-v0.1.md` | Question and baseline frozen | Inputs only; no lane or experiment authorization |
+| `pre-meeting-outcome-test-question-and-manual-baseline-v0.1.md` | Superseded for candidate actions; baseline retained | Original question and controlling manual baseline |
+| `pmot-01-revised-decision-paths-lane-authorization-and-execution-shape-v0.2.md` | Revised question frozen; lanes authorized but not dispatched | Current PMOT-01 control artifact |
 
 ## Proof Boundary
 
