@@ -1,7 +1,7 @@
 ---
 title: PMOT-01 Lane Contract and Ledger
 asset_type: experiment_lane_ledger
-status: researcher_return_accepted_executor_not_released
+status: researcher_return_accepted_pilot_contract_requested_executor_not_released
 version: v0.1
 owner: David Abiera
 created: 2026-07-28
@@ -13,7 +13,7 @@ test_start_local: 2026-07-28T01:08:00-0700
 test_start_utc: 2026-07-28T08:08:00Z
 artifact_number: 1
 artifact_limit: 5
-external_write_claim: none
+external_write_claim: slack_thread_reply_only
 ---
 
 # PMOT-01 Lane Contract and Ledger
@@ -89,6 +89,7 @@ acceptance.
 | Root authorization readback | complete | before dispatch | v0.2 contract and baseline read |
 | Researcher | complete | `2026-07-28T01:08:00-0700` dispatch; `2026-07-28T01:11:24-0700` root readback | `PILOT_NOW` returned |
 | Root evidence check | complete | `2026-07-28T01:11:24-0700` | return accepted as decision-brief input only |
+| Emmanuel pilot-contract request | sent | Slack `1785227020.728379` | response pending; no execution authority created |
 | Executor | held | — | opens only after root accepts researcher return |
 | Candidate freeze | held | — | opens only after executor return |
 | Independent verifier | held | — | opens only after exact candidate freeze |
@@ -101,7 +102,7 @@ acceptance.
 | Execution artifacts created | 2 of 5 |
 | Source indexes created for this dated run | 1 |
 | Specialist lanes dispatched | 1 |
-| External writes | 0 |
+| External writes | 1 Slack thread reply |
 | Runtime actions | 0 |
 | Human interventions after authorization | 0 |
 
@@ -130,3 +131,8 @@ the research lane the runtime authorization gate.
 case is exactly evidenced and neither CTR-01 nor SSI-120 is a dependency. Fresh
 execution remains stopped by data-classification, scope-contract, burden, source
 manifest, and explicit execution-authority gates.
+
+The Slack request asks Emmanuel for the exact pilot owner, user outcome, source
+manifest, first bounded action, stop condition, non-dependency confirmation,
+and separate `934fbd7` verifier-request status. It explicitly prohibits starting
+the pilot or adjacent held work from that message.
