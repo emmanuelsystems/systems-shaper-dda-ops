@@ -1,169 +1,111 @@
 ---
-title: Current Weekly Huddle Workflow Reconstruction
+title: July 31 Current Huddle Workflow Reconstruction
 asset_type: evidence_freeze
-status: reconstructed_read_only_candidate
-version: v0.1
+status: july_31_transcript_anchored
+version: v0.2
 owner: Firstmate
-created: 2026-08-06
+analysis_date: 2026-08-06
+target_huddle_date: 2026-07-31
 ---
 
-# Scope
+# Evidence rule
 
-This document reconstructs the current workflow from committed repository evidence only.
+The July 31 transcript is the only source used to describe the target huddle itself.
 
-It does not define a new workflow and does not prove that the workflow is automated or runtime-ready.
+Earlier repository workflow documents are used only to label historical context, proposed practice, or unresolved assumptions.
 
-## Confirmed current practice
+## Confirmed from July 31
 
-### Cadence and participants
+### Participants and cadence
 
-The evidence shows recurring David and Emmanuel huddles, pre-meeting preparation, and end-of-week handoffs.
+The huddle began at 9:20:29 AM on July 31, 2026, lasted 28 minutes, and listed David Abiera and Emmanuel Olaña as participants.
 
-The July 14 huddle had David Abiera and Emmanuel Olana as participants and lasted 121 minutes.
+David and Emmanuel explicitly planned another test run by the following week at 12:58-14:15.
 
-A July 9 report also records a 20-minute huddle recording and a planned next meeting.
+The transcript supports a recurring weekly check-in pattern, but it does not define a permanent day, time, or service-level cadence.
 
-The repository does not state a formal weekly day, time, or service-level cadence.
+### Preparation and inputs
 
-### Pre-huddle preparation
+Emmanuel brought a current transcript, prior work context, an evaluation of his Codex skills, agents, workloads, and prompts, and an Outcome Launcher experiment based on prior action items at 01:01-01:49 and 15:03-15:24.
 
-Emmanuel prepares a dated source index, current branch and SHA context, a meeting or pre-meeting packet, a walkthrough or agenda, and an explicit list of holds.
+David brought a client-facing direction, a dance-studio marketing use case, a forward-deployment framing, a voice-mode exploration, prompt-playbook work, and feedback on agent-to-agent continuity at 03:19-09:43, 11:24-12:48, and 15:34-19:34.
 
-The preparation set has included `morning-prep`, `ssi-119-pre-meeting-review-packet`, `ssi-119-pre-meeting-walkthrough-script`, progress summaries, and David-facing recovery entry points.
+### Discussion and agenda shape
 
-The preparation process is intended to recover current truth from repository artifacts rather than from chat memory.
+The observed huddle moved through these topics:
 
-### Inputs
-
-Observed inputs include the prior source index, repository governance, workflow and verifier documents, prior run artifacts, meeting transcript or recording, Slack coordination, and planning or tracking context.
-
-The July 29 PMOT contract freezes a narrower manifest of one raw transcript, a transcript analysis and evaluation, runtime preparation, a goal-setting workflow, a Goal Packet template, truth rules, and David's direction.
-
-The evidence does not show a current 2026-08-06 transcript or a complete current huddle input bundle.
-
-### Agenda structure
-
-The July 14 meeting sequence moved from repository role and proof boundaries to what was working, what the DDA should optimize, the missing interpretation layer, orchestration and delegation, verification, measurement, and possible future interface direction.
-
-The July 23 materials add a review walkthrough, state reconciliation, correction disposition, and next-action preparation.
-
-There is no accepted canonical weekly agenda document.
+1. Emmanuel's focus on client-facing workflows and transcript-to-action extraction at 01:01-01:49.
+2. David's critique of rigid skills and the need to design a mechanism rather than only add skills at 01:49-02:51.
+3. Customer, sales, marketing, onboarding, and forward-deployment use cases at 03:19-09:43.
+4. A conversation-to-work assembly line, voice, delegation, and a next-week test run at 09:04-14:15.
+5. The paused Outcome Launcher pilot and review request at 15:03-15:30.
+6. Agent-to-agent and human-to-human communication, Slack structure, and prompt-playbook continuity at 15:34-21:48.
+7. GitHub as trace, Google Drive as client-facing context storage, templates, and product packaging at 22:47-25:24.
+8. Visuals, Codex, UI, mobile prompts, and the continuing meeting/delegation direction at 25:25-27:55.
 
 ### Decision questions
 
-The recurring decision questions are whether the repository role is accepted, what outcome the DDA is optimizing, what a successful run measures, what the orchestrator may decide, what remains human-owned, whether evidence supports a bounded pilot, and whether the next action is accept, revise, hold, or reject.
+The huddle asked how to turn a client conversation into a useful workflow, what work should happen immediately after a meeting, how to delegate it across humans and AI, where durable context should live, and how the two agents should stay aligned.
 
-The PMOT-01 contract narrows the immediate questions to owner, user outcome, source sufficiency, first bounded action, stop conditions, and dependency exclusions.
+It also asked which client-facing use case should be tested first and how much of the product or workflow should be packaged before the underlying mechanism is proven.
 
-### Live huddle activities
+### Post-huddle outputs and next context
 
-Observed live activities include reviewing the current repository state, walking through evidence, challenging whether documentation produces value, identifying goals and measures, discussing delegation and verification, and agreeing on bounded next actions.
+David asked Emmanuel to keep working toward another workflow test run by the next week and to determine the post-meeting delegation step at 12:58-14:15.
 
-The huddle is a human discussion and review activity, not a proven automated orchestration runtime.
+David asked to be pinged when his agent could review Emmanuel's updates at 27:47-27:55.
 
-### Post-huddle outputs
+Emmanuel said he intended to create Google Drive project templates and use GitHub as an audit trail at 22:47-23:24.
 
-The documented output loop is a dated source index followed by scoped analysis, action or goal contracts, handoff or completion packets, verifier returns, decision records, and a compact update summary when useful.
-
-External Slack, Linear, Notion, Drive, or other updates are coordination or supporting context unless explicitly approved and captured within the proof boundary.
-
-## Responsibilities
-
-### GitHub
-
-GitHub stores durable Markdown evidence, workflow documents, templates, version history, branches, and review context.
-
-Commits and pushes transport evidence but do not create acceptance, canon, runtime readiness, or infrastructure approval.
-
-### Slack
-
-Slack carries freshness, asks, timing, meeting context, and team coordination signals.
-
-Slack content is not durable proof unless captured in a reviewed repository artifact.
-
-### Notion and Drive
-
-Notion provides human-readable planning and meeting context.
-
-Drive provides recordings, transcripts, source documents, and shareable materials.
-
-Neither surface outranks a human review decision or an exact reviewed repository artifact.
-
-### Linear and Symphony
-
-Linear and Symphony may track ownership, gates, and status when explicitly used.
-
-The current repository index does not contain a frozen Linear or Symphony item set.
-
-### Codex
-
-Codex performs repository-local reading, drafting, consistency checks, scoped branch work, and evidence returns.
-
-Codex must preserve source authority, exact SHA identity, verifier separation, and explicit holds.
-
-### Firstmate
-
-Firstmate may resolve project intake, inspect registered project material, prepare bounded read-only evidence, and route approved work.
-
-Firstmate may not treat an absent source as present, promote a candidate, merge a PR, close a hold, or infer a human decision.
+## Responsibilities evidenced in the huddle
 
 ### Emmanuel
 
-Emmanuel currently prepares source indexes, meeting packets, contracts, branch returns, and completion evidence.
-
-Emmanuel owns the human authorization for execution, the final interpretation of his intended outcome, external-write approval, and promotion or repository-role decisions jointly reserved with David where recorded.
+- Focus this week and next week on client-facing workflows and a concrete client or use-case test at 01:01-01:49.
+- Evaluate existing Codex skills, agents, workloads, and prompts rather than assuming they are the right structure at 01:01-01:49.
+- Explore extracting action items and deliverable outputs from a transcript at 01:01-01:49.
+- Pause the current Outcome Launcher pilot and focus on the new transcript direction at 15:03-15:24.
+- Push alignment prompts and updates so David's agent can review them at 17:28-20:42.
+- Build or test Google Drive project templates for client-facing context at 22:47-23:24.
 
 ### David
 
-David provides review direction, challenges the value and measurement model, evaluates receiving-side alignment, reviews bounded contracts, and returns accept, revise, hold, or reject decisions within his stated scope.
+- Narrow the work toward customer value, sales and marketing, onboarding, forward deployment, and client-ready delivery at 03:19-09:43.
+- Help define the conversation-to-work mechanism, voice lane, delegation step, and next test run at 09:04-14:15.
+- Explore prompt-playbook iteration and agent-to-agent communication structures at 15:34-19:34.
+- Review Emmanuel's updates through his agent and provide feedback at 19:34-21:48 and 27:47-27:55.
+- Continue sending or sharing the relevant conversation and alignment context at 25:14-27:55.
 
-David's July 28 return selected `PILOT_NOW` as a path but did not release execution.
+### GitHub, Slack, Drive, Notion, Codex, and Firstmate
 
-## Approval boundaries
+The July 31 transcript confirms GitHub as a trace or audit trail and identifies Google Drive as the intended client-facing context and template surface at 22:47-23:36.
 
-### Firstmate may analyze autonomously
+The transcript questions whether one Slack channel is sufficient for agent-to-agent and human-to-human communication at 15:34-19:34, but does not approve a channel change or Slack application.
 
-- Read committed repository artifacts and remote branch metadata.
-- Build a source-indexed evidence pack.
-- Reconstruct confirmed practice and label proposals or assumptions.
-- Compare branch contents without merging, rebasing, or modifying them.
-- Report missing evidence, conflicts, and current holds.
+Codex is discussed as useful for visuals and Mermaid-style decision representations at 25:25-26:35.
 
-### Emmanuel approval is required for
+Firstmate is not named in the transcript, so any Firstmate responsibility below is an analysis opportunity, not a confirmed assignment.
 
-- Starting a pilot or implementation.
-- Selecting or revising the exact execution scope and source manifest.
-- External writes, memory changes, automation, runtime action, PR creation, merge, `main` promotion, or repository migration.
-- Treating a candidate as accepted, canon, runtime-ready, or approved infrastructure.
+No July 31 evidence assigns a responsibility to Notion or Linear.
 
-### David decision is required for
+## Proposed practice, not approved
 
-- Accepting, revising, holding, or rejecting the PMOT-01 contract.
-- Confirming the receiving-side source access and burden assumptions.
-- Accepting the workflow or review package within his review scope.
-- Resolving David-owned conflicts or disposition questions identified in his return.
-
-### Joint or explicitly human-owned decisions
-
-Repository role beyond review-only use, replacement of `dda-agent-ops`, PR or `main` promotion, infrastructure acceptance, and any change to the proof boundary require the recorded human gate.
-
-## Proposed practice found in the evidence
-
-The repository proposes a root orchestrator that converts intent into one measurable goal, delegates bounded researcher and executor lanes, maintains goal-to-task-to-evidence lineage, and uses an independent verifier before a human decision.
-
-The repository proposes a compact scoreboard or snapshot after measurement evidence exists.
-
-The repository proposes a transcript-to-goal-packet pilot with one bounded draft and strict stop conditions.
-
-These are proposed or candidate practices, not accepted current runtime behavior.
+- A repeatable conversation-to-work assembly line that turns intent into delegated tasks and verified outputs.
+- Voice as a primary way to express client intent.
+- A one-hour starter conversation followed by a longer client contract.
+- A forward-deployed engineering or shared-upside commercial model.
+- An agent-to-agent Slack app or a new channel structure.
+- A prompt-playbook mechanism for versioned prompts and continuity.
+- A client-facing site or UI.
+- Automated prompts or mobile-driven all-day task execution.
 
 ## Unresolved assumptions
 
-- The huddle is weekly in a formal recurring sense.
-- The current participants are limited to David and Emmanuel.
-- A single canonical agenda exists.
-- The latest branch or packet is shared and accepted by both sides.
-- The June 24 transcript is accessible to both participants.
-- David has received the custom instructions and updated intent-to-prompt material.
-- Linear, Notion, Drive, and Slack contain current authoritative status for the August cycle.
-- The proposed orchestrator, verifier, scoreboard, or automation is running.
+- The first client workflow or customer segment has not been selected.
+- The exact deliverable sent to a client has not been defined.
+- The post-meeting delegation sequence is not yet specified.
+- GitHub and Google Drive ownership and synchronization are not operationally defined.
+- The preferred Slack or agent-to-agent communication surface is unresolved.
+- Voice capability and the appropriate runtime surface are unresolved.
+- The meaning of "product" versus packaged service remains open.
+- No July 31 evidence proves that a workflow test run occurred after the huddle.
